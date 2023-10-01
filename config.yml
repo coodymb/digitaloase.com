@@ -1,0 +1,71 @@
+baseURL: https://digitaloase.com/
+languageCode: en-us
+title: Digital Oase
+paginate: 5
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+params:
+  env: production
+  title: Digital Oase
+  description: "Welcome to Digital Oase – where digital minimalism meets the myriad  benefits of the digital age. Dive into a balanced approach to tech,  ensuring you harness its advantages without being ensnared by  overconsumption. Our focus is on mindful digital interaction and  optimization, promoting a harmonious tech-life balance. Embrace a  lifestyle that celebrates the best of the digital realm, steering clear  from its pitfalls. Join us in the journey towards positive and enriching digital experiences."
+  keywords: [Blog, Digital Oase,Digital optimization, Digital mindfulness, Digital minimalism, positive digital consumption]
+  author: Me
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: "/images/icons/favicon.png"
+    favicon16x16: "/images/icons/favicon16.png"
+    favicon32x32: "/images/icons/favicon32.png"
+    apple_touch_icon: "/images/icons/apple_touch_icon.png"
+    # safari_pinned_tab: "/images/icons/safari_pinned_tab.svg"
+
+  label:
+    text: "Digital Oase"
+    icon: "/images/icons/apple_touch_icon.png"
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Digital Oase
+    subtitle: "Utilising the amazing power of digital technology while minizing its negative effects."
+    imageUrl: "/images/icons/iconHome.png"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Introduction
+        url: posts
+      - name: Stories
+        url: tags
+      - name: Blog
+        url: tags
+
